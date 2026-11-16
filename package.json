@@ -2,6 +2,7 @@
   "name": "qr-generator",
   "version": "1.0.0",
   "description": "Generate QR code PNGs from text, one per line",
+  "homepage": "https://aneebji.github.io/QRGenerator/",
   "main": "main.js",
   "private": true,
   "scripts": {

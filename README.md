@@ -1,6 +1,8 @@
 # QR Generator
 
-Desktop app that turns text into QR code images. Each line in the box becomes its own QR code.
+Use it in the browser: **https://aneebji.github.io/QRGenerator/**
+
+Desktop app that turns text into QR code images. Each line in the box becomes its own QR code. The website does the same thing: one line downloads a PNG, and two or more lines download a ZIP. In Chrome and Edge you can pick the folder.
 
 - One line saves a single PNG.
 - Two or more lines save one ZIP that contains every PNG.
@@ -37,3 +39,4 @@ Each image is 512 by 512 pixels. If a line is too long to fit in a QR code, noth
 | `main.js` | Window, save dialog, PNG and ZIP writing |
 | `preload.js` | Safe bridge from the page to the app |
 | `renderer/` | The text box and Generate button |
+| `docs/` | The website published with GitHub Pages |
