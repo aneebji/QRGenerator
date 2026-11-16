@@ -1,0 +1,17 @@
+{
+  "name": "qr-generator",
+  "version": "1.0.0",
+  "description": "Generate QR code PNGs from text, one per line",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "jszip": "^3.10.2",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "electron": "^41.7.1"
+  }
+}

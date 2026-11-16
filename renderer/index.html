@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>QR Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>QR Generator</h1>
+        <p>Enter one text or link per line. Each line becomes its own QR code.</p>
+      </header>
+
+      <textarea
+        id="input"
+        spellcheck="false"
+        autofocus
+        placeholder="https://example.com&#10;Hello world&#10;Another line, another QR code"
+      ></textarea>
+
+      <footer>
+        <span id="counter">0 QR codes</span>
+        <button id="generate" type="button" disabled>Generate</button>
+      </footer>
+
+      <p id="status" role="status" aria-live="polite"></p>
+    </main>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
